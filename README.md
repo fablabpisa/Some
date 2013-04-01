@@ -5,7 +5,7 @@ version 1.0
 
 Intro
 -------------------------
-#SOME version 1.0 is C++ code for Arduino-compatible microcontrollers developed to empower physical objects with custom-made behaviours. 
+ #SOME version 1.0 is C++ code for Arduino-compatible microcontrollers developed to empower physical objects with custom-made behaviours. 
 It is based on an object oriented architecture that links sensor inputs to actuator's status changes via behavioural functions.
 Due to Arduino's space and computational constraints, the current version is not as general-purpose as possible. We are working
 on version 2.0 that will feature a virtual machine for an ad hoc programming language targeted to more performant architectures (Arduino Due, Maple, RasperryPI,...) 
@@ -20,7 +20,7 @@ Requirements
 How it works
 -------------------------
 
-#SOME provides the following C++ Objects:
+ #SOME provides the following C++ Objects:
 
 * SENSE: it abstracts a perception unit by acquiring data from a sensor and storing some features of the stream (average signal, last n samples,...)
 * ACTUATOR: it abstracts a device linked to the Arduino that can be "actuated". In our case study we have a RGB Led actuator and a Viber stolen from a dead cellphone.
